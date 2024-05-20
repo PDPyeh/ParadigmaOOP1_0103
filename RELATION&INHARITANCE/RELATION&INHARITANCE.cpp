@@ -6,5 +6,10 @@ class mahasiswa {
 private:
 	const int id;
 	string nama;
-	float nilai
+	float nilai;
+
+public:
+	mahasiswa(int pID, string pNama, float pNilai) :id(pId), nama(pNama) {
+		//Definisi
+	}
 };
